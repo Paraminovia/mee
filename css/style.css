@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", serif;
+}
+body{
+    background: url(https://i.postimg.cc/sXzGcNdJ/ho.jpg);
+    background-size: cover;
+    background-size: 100% 110%;
+}
+header{
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #050913;
+    margin-right: 100px;
+    bottom: 0; 
+    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.575);
+    height: 51.9rem;
+    transition: 0.6s;
+}
+header.visible{
+    opacity: 1;
+    visibility: visible;
+}
+.entrar{
+    margin: 20px;
+    cursor: pointer;
+}
+.entrar img{
+    width: 25px;
+}
+.cerrar{
+    margin: 20px;
+    cursor: pointer;
+}
+.cerrar img{
+    width: 25px;
+}
+nav{
+    margin-top:-25px;
+    padding: 35px;
+}
+nav p{
+    color: #ffff;
+    text-align: center;
+}
+nav a{
+    font-size: 20px;
+    color: #8b8b8b;
+    text-decoration: none;
+    padding: 5px;
+}
+nav a:hover{
+    color: #000;
+}
+nav ul{
+    transition: 0.5s;
+    text-align: center;
+    border-radius: 50px;
+}
+nav ul:hover{
+    background: #ffffff49;
+    cursor: pointer;
+    color: #000;
+}
+.line{
+    margin-top: 20px;
+    list-style: none;
+    padding: 15px;
+    
+}
+.list{
+    color: #fff;
+    padding: 20px;
+    
+}
+.logo{
+    padding: 50px;
+    text-align: center;
+}
+.logo a{
+    color: #ff0000;
+    text-decoration: none;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 50px;
+    background: #414f6b;
+    font-size: 25px;
+}
+.inicio{
+    text-align: center;
+    margin-top: 30px;
+}
+.inicio img{
+    width: 75px;
+    background: #fff;
+    border-radius: 55px;
+    border-style: solid;
+}
+.inicio h5{
+    color: #fff;
+    background: #000000;
+    border-radius: 50px;
+    width: 75px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    margin-left: 40%;
+}
+.link{
+    margin: 20px;
+    margin: 10px;
+    margin-top: 20px;
+}
+.link li{
+    display: flex;
+    list-style: none;
+    padding: 10px;
+
+}
+.link a{
+    color: #000;
+    background: #ffff;
+    text-decoration: none;
+    transition: 0.5s;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+}
+.link a:hover{
+    background: #1b56d8;
+    cursor: pointer;
+    color: aliceblue;
+}
+.link img{
+    
+    margin-top: 2px;
+    margin-left: -18.6rem;
+    width: 13%;
+    height: 50%;
+    
+}
+.link2{
+    margin: 15px;
+    margin: 10px;
+    margin-top: -15px;
+}
+li.link2 {
+    display: flex;
+    list-style: none;
+    padding: 10px;
+
+}
+.link2 a{
+    color: #000;
+    background: #ffff;
+    text-decoration: none;
+    transition: 0.5s;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+}
+.link2 a:hover{
+    background: rgb(255,197,4);
+    background: linear-gradient(90deg, rgba(255,197,4,1) 0%, rgba(255, 0, 98, 0.603) 50%, rgba(98, 0, 255, 0.753) 100%);
+    cursor: pointer;
+    color: aliceblue;
+}
+.link2 img{
+    margin-top: 2px;
+    margin-left: -18.6rem;
+    width: 13%;
+    height: 50%;
+    
+}
+.link3{
+    margin: 15px;
+    margin: 10px;
+    margin-top: -15px;
+}
+ li.link3{
+    display: flex;
+    list-style: none;
+    padding: 10px;
+
+}
+.link3 a{
+    color: #000;
+    background: #ffff;
+    text-decoration: none;
+    transition: 0.5s;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+}
+.link3 a:hover{
+    background: #414f6b;
+    cursor: pointer;
+    color: aliceblue;
+}
+.link3 img{
+    margin-top: 2px;
+    margin-left: -18.6rem;
+    width: 13%;
+    height: 50%;
+}
+.link4{
+    margin: 15px;
+    margin: 10px;
+    margin-top: -15px;
+}
+ li.link4{
+    display: flex;
+    list-style: none;
+    padding: 10px;
+
+}
+.link4 a{
+    color: #000;
+    background: #ffff;
+    text-decoration: none;
+    transition: 0.5s;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+}
+.link4 a:hover{
+    background: #1b1c1d;
+    cursor: pointer;
+    color: aliceblue;
+}
+.link4 img{
+    margin-top: 2px;
+    margin-left: -18.6rem;
+    width: 13%;
+    height: 50%;
+}
+.link5{
+    margin: 15px;
+    margin: 10px;
+    margin-top: -15px;
+}
+ li.link5{
+    display: flex;
+    list-style: none;
+    padding: 10px;
+
+}
+.link5 a{
+    color: #000;
+    background: #ffff;
+    text-decoration: none;
+    transition: 0.5s;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+}
+.link5 a:hover{
+    background: #968a7f;
+    cursor: pointer;
+    color: aliceblue;
+}
+.link5 img{
+    margin-top: 2px;
+    margin-left: -18.6rem;
+    width: 13%;
+    height: 50%;
+    border-radius: 50px;
+    background: #fff;
+}
+.link6{
+    margin: 15px;
+    margin: 10px;
+    margin-top: -15px;
+}
+ li.link6{
+    display: flex;
+    list-style: none;
+    padding: 10px;
+
+}
+.link6 a{
+    color: #000;
+    background: #ffff;
+    text-decoration: none;
+    transition: 0.5s;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+}
+.link6 a:hover{
+    background: #68b4e0;
+    cursor: pointer;
+    color: aliceblue;
+}
+.link6 img{
+    margin-top: 2px;
+    margin-left: -18.6rem;
+    width: 13%;
+    height: 50%;
+    border-radius: 50px;
+}
+.link7{
+    margin: 15px;
+    margin: 10px;
+    margin-top: -15px;
+}
+ li.link7{
+    display: flex;
+    list-style: none;
+    padding: 10px;
+
+}
+.link7 a{
+    color: #000;
+    background: #ffff;
+    text-decoration: none;
+    transition: 0.5s;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+}
+.link7 a:hover{
+    background: #44b80f;
+    cursor: pointer;
+    color: aliceblue;
+}
+.link7 img{
+    margin-top: 2px;
+    margin-left: -18.6rem;
+    width: 13%;
+    height: 50%;
+}
+footer{
+    margin-top: 50%;
+    background: #464130d2;
+    padding: 15px;
+    align-items: center;
+}
+footer h4{
+    font-size: 12px;
+    color: #f1f1f1;
+    text-align: center;
+}
